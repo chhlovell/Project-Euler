@@ -75,7 +75,6 @@ double getMaxPrimeFactor(double n){
 	if (n == 1) return 1;
 
 	double limit = sqrt(n);
-	//double lprime = 1;
 	double it;
 
 	for (it = floor(limit); (it > 1) && !(isFactor(it, n) && isPrime(it)); it--){
